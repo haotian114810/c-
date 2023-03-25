@@ -1,0 +1,10 @@
+#include<stdio.h>
+#include<math.h>
+ int main()
+{
+   double a,x,y;
+   //printf("Enter a and x:");
+   scanf("%lf,%lf",&a,&x);
+   printf("y = %f",pow(a,5)+sin(a*x)+log(a+x)+exp(a*x));
+   return 0;
+}
