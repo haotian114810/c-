@@ -1,0 +1,9 @@
+#include<stdio.h>
+ int main()
+{
+   int a,b,c;
+   //printf("Enter a and b:");
+   scanf("%o %o",&a,&b);
+   printf("d:%d\nx:%x",a+b,a+b);
+   return 0;
+}
