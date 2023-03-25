@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main()
+{
+	int a,b,c,x,y,z,q;
+    a = 150;
+    b = 20;
+    c = 45;
+    x = a / b;
+    y = a / c;
+    z = a % b;
+	q = a % c;
+    printf("a / b的商 = %d\n",x);
+    printf("a / c的商 = %d\n",y);
+    printf("a % b的余数 = %d\n",z);
+    printf("a %% c的余数 = %d",q);
+    return 0;   
+}
