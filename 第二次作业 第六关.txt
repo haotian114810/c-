@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main()
+{
+  float s,c;
+   double r = 0;
+  printf("请输入圆半径r:");
+  scanf("%lf",&r);
+  s = 3.14*pow(r,2);
+  c = 2*3.14*r;
+  printf("圆面积S=%f,圆周长C=%f",s,c);
+  return 0;
+  
+}
