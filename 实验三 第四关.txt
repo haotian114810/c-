@@ -1,0 +1,14 @@
+#include<stdio.h>
+ int main()
+{  
+    double n;
+	//printf("Enter n:");
+	scanf("%lf",&n);
+	if (n<0)
+		printf("%.0lf is less than 0",n);
+	else if(n == 0)
+		printf("%.0lf is equal to 0",n);
+	else
+		printf("%.0lf is greater than 0",n);
+	return 0;
+}
