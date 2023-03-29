@@ -1,0 +1,37 @@
+#include<stdio.h>
+ int main(void)
+ {  
+   int n;
+      scanf("%d",&n);
+      if(n>100 || n<0)
+      {
+          printf("Score is error!");
+          return 0;
+      }
+      else if(n>=90 && n<=100)
+      {
+          printf("A");
+          return 0;
+      }
+      else if(n>=80 && n<=89)
+      {
+          printf("B");
+          return 0;
+      }
+      else if(n>=70 && n<=79)
+      {
+          printf("C");
+          return 0;
+      }
+      else if(n>=60 && n<=69)
+      {
+          printf("D");
+          return 0;
+      }
+   else if(n<60)
+      {
+          printf("E");
+          return 0;
+      }
+       return 0;
+ }
