@@ -1,0 +1,24 @@
+#include <stdio.h>
+ int main()
+ { 
+   /********** Begin **********/
+   int a = 0;
+   int b = 1;
+   int c = 3;
+   int d,y;
+   scanf("%d",&d);
+   switch(d)
+   {
+     case 1:
+     y = (++a)&&(--b)&&(c = b+3);
+     printf("a = %d,b = %d,c = %d,y = %d",a,b,c,y);
+     break;
+     case 2:
+     y = (++a)||(--b)||(c = b+3);
+     printf("a = %d,b = %d,c = %d,y = %d",a,b,c,y);
+     break;
+     default:
+     printf("unknown");
+   }
+  return 0;
+ }
